@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #16161d 
+}
+
+section {
+    margin-left: 200;
+    margin-right: 200;
+}
+
+table {
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    /*vertical-align: middle;*/
+    align-items: center;
+    align-content: center;
+    /* width: 150px; */
+    margin-left: 200;
+    margin-right: 200;
+}
+
+/* .borda, tr {
+    border-top: 2px 2px solid #cccccc;
+} */
+
+td:nth-child(even), th:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+td {
+    font-weight: bold;
+    align-items: center;
+    width: 18px;
+    height: 14px;
+    align-content: center;
+    padding: center;
+}
+
+/* exercicio item a) */
+
+.posicao {
+    width: 18px;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+}
+
+/* exercicio b) */
+th {
+    width: 13px;
+    height: 13px;
+    color: #999999;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* exercicio item c) */
+.times {
+    width: 14px;
+    color: #666666;
+    font-weight: bold;
+    align-items: left;
+    background-color: #ffffff;
+}
+
+font {
+    color: #003366;
+}
+
+tr {
+    height: 14px;
+}
+
+header {
+    right: auto;
+}
+caption {
+    align-items: right;
+    right: auto;
+}
+
+.rodape {
+    font-size: xx-small;
+    color: #555555;
+}
